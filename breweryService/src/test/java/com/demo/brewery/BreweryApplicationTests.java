@@ -12,7 +12,6 @@ import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class BreweryApplicationTests {
 
@@ -146,5 +145,4 @@ class BreweryApplicationTests {
 		brewery.setCreated_at("2018-07-24T00:00:00.000Z");
 		return brewery;
 	}
-
 }
