@@ -18,8 +18,6 @@ public class BreweryDao {
     public Brewery getBrewery(Integer id) {
         String url = String.format("%s/%d", BREWERY_DB_URL, id);
         Brewery brewery = restTemplate.getForObject(url, Brewery.class);
-        System.out.println(url);
-        System.out.println(brewery.toString());
         return brewery;
     }
 

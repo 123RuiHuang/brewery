@@ -27,7 +27,6 @@ public class Controller {
         return breweryService.getBrewery(id);
     }
 
-
     @GetMapping(value = "/breweries/filter/{filterName}/{filterValue}")
     public List<Brewery> filterBreweries(@PathVariable String filterName, @PathVariable String filterValue)
             throws ClientException, SeverException {
