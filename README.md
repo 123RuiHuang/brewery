@@ -1,4 +1,4 @@
-1: Brewery Service is a RESTFul API built using SpringBoot that allows end users to search and retrieve information about breweries from [Open Brewery DB](https://www.openbrewerydb.org/documentation).
+1: Brewery Service is a RESTFul API built using SpringBoot that allows end users to search and retrieve information about breweries from [Open Brewery DB](https://www.openbrewerydb.org/documentation). It is deployed to EC2 instance(54.147.145.145) and listen the port 8080
 
 2: Below three functions are supported. These functions are tested [here](https://github.com/123RuiHuang/brewery/blob/master/breweryService/src/test/java/com/demo/brewery/BreweryApplicationTests.java)
 * Get a specific brewery by ID
